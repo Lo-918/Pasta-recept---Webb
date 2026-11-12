@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(16, 119, 119);
+    color: rgb(249, 247, 234);
+    font-family: "Amaranth", Verdana;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    padding: 10px;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+}
