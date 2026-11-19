@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
 
 body {
     margin: 0px;
+    font-family: "Anuphan", Arial;
+
+    display: grid;
+    grid-template-rows: 1fr 4fr 5fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 nav {
@@ -16,9 +22,53 @@ nav {
     gap: 30px;
 
     padding: 10px;
+
+    grid-area: 1 / 1 / 2 / 3;
 }
 
 #logo {
     width: 50px;
     height: auto;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+header {
+    background-color: rgb(152, 193, 186);
+
+    grid-area: 2 / 1 / 3 / 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    padding-left: 100px;
+}
+
+h1 {
+    color: rgb(10, 80, 80);
+    font-family: "Amaranth", Verdana;
+}
+
+#meal-img {
+    height: 280px;
+    width: auto;
+
+    border: 3px solid rgb(10, 80, 80);
+    border-radius: 30px;
+
+    margin-right: 100px;
+}
+
+#img-div {
+    background-color: rgb(152, 193, 186);
+
+    grid-area: 2 / 2 / 3 / 3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
