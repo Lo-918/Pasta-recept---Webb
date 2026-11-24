@@ -91,10 +91,21 @@ article {
     background-color: rgb(249, 247, 234);
 }
 
+#ingredients {
+    border-right: 5px dashed rgb(10, 80, 80);
+}
+
 .article-heading, #aside-heading {
     text-align: center;
 }
 
 .article-heading {
     color: rgb(16, 119, 119);
+}
+
+footer {
+    grid-area: 4 / 1 / 5 / 3;
+
+    text-align: center;
+    align-self: center;
 }
