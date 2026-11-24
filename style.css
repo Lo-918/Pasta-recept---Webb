@@ -89,10 +89,13 @@ aside {
 
 article {
     background-color: rgb(249, 247, 234);
+
+    padding: 15px;
 }
 
-#ingredients {
-    border-right: 5px dashed rgb(10, 80, 80);
+#instructions {
+    border-left: 5px dashed rgb(10, 80, 80);
+    padding-right: 30px;
 }
 
 .article-heading, #aside-heading {
@@ -103,9 +106,21 @@ article {
     color: rgb(16, 119, 119);
 }
 
+ul {
+    list-style: circle;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
 footer {
     grid-area: 4 / 1 / 5 / 3;
 
     text-align: center;
     align-self: center;
+}
+
+a {
+    color: rgb(10, 80, 80);
 }
