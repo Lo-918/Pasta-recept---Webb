@@ -85,6 +85,7 @@ main {
 aside {
     background-color: rgb(16, 119, 119);
     color: rgb(249, 247, 234);
+    padding-right: 25px;
 }
 
 article {
@@ -128,4 +129,10 @@ a {
 
 #footer-link {
     color: rgb(10, 80, 80);
+    text-decoration: underline;
+}
+
+.tip-link {
+    color: rgb(249, 247, 234);
+    text-decoration: underline;
 }
